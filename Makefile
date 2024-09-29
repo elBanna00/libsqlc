@@ -1,5 +1,5 @@
 db: db.c
-	gcc db.c -o db
+	gcc main.c -o db
 
 run: db
 	./db mydb.db
